@@ -13,7 +13,7 @@ const content = {
   fr: {
     greeting: "Bonjour, je suis",
     name: "Simon Fétré",
-    title: "Étudiant BUT Informatique - Parcours Réalisation d'Applications",
+    title: "Étudiant en BUT Informatique - Parcours Réalisation d'Applications",
     subtitle:
       "En alternance, passionné par le développement d'applications modernes et performantes",
     currentGoal:

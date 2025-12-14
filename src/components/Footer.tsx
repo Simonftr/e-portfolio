@@ -1,27 +1,30 @@
-import { Heart, Github, Linkedin, Mail } from 'lucide-react';
+import { Heart, Github, Linkedin, Mail } from "lucide-react";
 
 interface FooterProps {
-  language: 'fr' | 'en';
+  language: "fr" | "en";
+  onNavigate?: (
+    section: "home" | "about" | "experience" | "skills" | "projects" | "contact"
+  ) => void;
 }
 
 const content = {
   fr: {
-    madeWith: 'Créé avec',
-    by: 'par',
-    rights: 'Tous droits réservés.',
-    portfolio: 'E-Portfolio',
+    madeWith: "Créé avec",
+    by: "par",
+    rights: "Tous droits réservés.",
+    portfolio: "E-Portfolio",
     year: new Date().getFullYear(),
   },
   en: {
-    madeWith: 'Made with',
-    by: 'by',
-    rights: 'All rights reserved.',
-    portfolio: 'E-Portfolio',
+    madeWith: "Made with",
+    by: "by",
+    rights: "All rights reserved.",
+    portfolio: "E-Portfolio",
     year: new Date().getFullYear(),
   },
 };
 
-export function Footer({ language }: FooterProps) {
+export function Footer({ language, onNavigate }: FooterProps) {
   const t = content[language];
 
   return (
@@ -32,35 +35,51 @@ export function Footer({ language }: FooterProps) {
           <div>
             <h3 className="mb-4">{t.portfolio}</h3>
             <p className="text-gray-400">
-              {language === 'fr'
-                ? 'BUT Informatique - Parcours Réalisation d\'Applications'
-                : 'Computer Science Bachelor - Application Development'}
+              {language === "fr"
+                ? "BUT Informatique - Parcours Réalisation d'Applications"
+                : "Computer Science Bachelor - Application Development"}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h3 className="mb-4">
-              {language === 'fr' ? 'Liens rapides' : 'Quick Links'}
+              {language === "fr" ? "Liens rapides" : "Quick Links"}
             </h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-white transition-colors cursor-pointer">
-                  {language === 'fr' ? 'À propos' : 'About'}
+                <a
+                  href="#"
+                  className="hover:text-white transition-colors cursor-pointer"
+                  onClick={() => onNavigate?.("about")}
+                >
+                  {language === "fr" ? "À propos" : "About"}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors cursor-pointer">
-                  {language === 'fr' ? 'Compétences' : 'Skills'}
+                <a
+                  href="#"
+                  className="hover:text-white transition-colors cursor-pointer"
+                  onClick={() => onNavigate?.("skills")}
+                >
+                  {language === "fr" ? "Compétences" : "Skills"}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors cursor-pointer">
-                  {language === 'fr' ? 'Projets' : 'Projects'}
+                <a
+                  href="#"
+                  className="hover:text-white transition-colors cursor-pointer"
+                  onClick={() => onNavigate?.("projects")}
+                >
+                  {language === "fr" ? "Projets" : "Projects"}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors cursor-pointer">
+                <a
+                  href="#"
+                  className="hover:text-white transition-colors cursor-pointer"
+                  onClick={() => onNavigate?.("contact")}
+                >
                   Contact
                 </a>
               </li>
@@ -70,7 +89,7 @@ export function Footer({ language }: FooterProps) {
           {/* Social */}
           <div>
             <h3 className="mb-4">
-              {language === 'fr' ? 'Suivez-moi' : 'Follow me'}
+              {language === "fr" ? "Suivez-moi" : "Follow me"}
             </h3>
             <div className="flex gap-4">
               <a
