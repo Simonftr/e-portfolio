@@ -110,7 +110,7 @@ const projectsData = {
       title: "Botanic",
       subtitle: "Application métier en C#",
       image:
-        "https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1652600737672-12942122d1c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Oct. 2023 - Déc. 2023",
       team: "Équipe de 2 étudiants",
       year: "BUT 1",
@@ -149,7 +149,7 @@ const projectsData = {
       title: "Botanic",
       subtitle: "Business application in C#",
       image:
-        "https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1652600737672-12942122d1c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Oct. 2023 - Dec. 2023",
       team: "Team of 2 students",
       year: "BUT 1",
@@ -190,7 +190,7 @@ const projectsData = {
       title: "Scodoc",
       subtitle: "Système de gestion d'étudiants et de notes",
       image:
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1643982102543-bc057db646cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Janv. 2024 - Mars 2024",
       team: "Équipe de 2 étudiants",
       year: "BUT 1",
@@ -229,7 +229,7 @@ const projectsData = {
       title: "Scodoc",
       subtitle: "Student and grade management system",
       image:
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1643982102543-bc057db646cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Jan. 2024 - Mar. 2024",
       team: "Team of 2 students",
       year: "BUT 1",
@@ -270,7 +270,7 @@ const projectsData = {
       title: "Vinted_API",
       subtitle: "API REST pour plateforme de vente",
       image:
-        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1666358052008-a9a1ecda7885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Oct. 2024 - Déc. 2024",
       team: "Équipe de 5 étudiants",
       year: "BUT 2",
@@ -324,7 +324,7 @@ const projectsData = {
       title: "Vinted_API",
       subtitle: "REST API for sales platform",
       image:
-        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1666358052008-a9a1ecda7885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Oct. 2024 - Dec. 2024",
       team: "Team of 5 students",
       year: "BUT 2",
@@ -380,7 +380,7 @@ const projectsData = {
       title: "VintedClient",
       subtitle: "Interface web Vue.js",
       image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Janv. 2025 - Mars 2025",
       team: "Équipe de 5 étudiants",
       year: "BUT 2",
@@ -427,7 +427,7 @@ const projectsData = {
       title: "VintedClient",
       subtitle: "Vue.js web interface",
       image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Jan. 2025 - Mar. 2025",
       team: "Team of 5 students",
       year: "BUT 2",
@@ -476,7 +476,7 @@ const projectsData = {
       title: "movie_app",
       subtitle: "Application mobile Flutter",
       image:
-        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1760404699908-6b9b8f11f424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Mars 2025",
       team: "Projet individuel",
       year: "BUT 2",
@@ -516,7 +516,7 @@ const projectsData = {
       title: "movie_app",
       subtitle: "Flutter mobile application",
       image:
-        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1760404699908-6b9b8f11f424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Mar. 2025",
       team: "Individual project",
       year: "BUT 2",
@@ -558,7 +558,7 @@ const projectsData = {
       title: "Pokémon Trainer Manager",
       subtitle: "Application iOS native en Swift",
       image:
-        "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1650573547848-d7b93ed79782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Oct. 2025",
       team: "Projet individuel",
       year: "BUT 3",
@@ -596,7 +596,7 @@ const projectsData = {
       title: "Pokémon Trainer Manager",
       subtitle: "Native iOS app in Swift",
       image:
-        "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?w=1200&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1650573547848-d7b93ed79782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       period: "Oct. 2025",
       team: "Individual project",
       year: "BUT 3",
